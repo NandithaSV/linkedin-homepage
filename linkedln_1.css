@@ -1,0 +1,117 @@
+#para{
+  color: orange;
+  font-size: 10px;
+}
+
+.all{
+  font-size: 10px;
+  color: white;
+}
+
+#work{
+  color:white;
+  font-size: 6px;
+}
+
+#example2 {
+  box-sizing:content-box;
+  width: 650px;
+  height: 490px;
+  padding: 10px 10px;
+  border: 5px lightgray;
+  margin: auto;
+  border-width: thin;
+  border-style: ridge;
+}
+#dim{
+  filter:brightness(1%);
+}
+
+.text{
+  font-size: 10px;
+}
+
+.logo{
+  float:left;
+}
+#lft{
+  color: blue;
+  float:right;
+  text-align: left;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: lightgray;
+}
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+#example3 {
+  box-sizing:content-box;
+  width: 650px;
+  height: 120px;
+  padding: 10px 10px;
+  border: 5px lightgray;
+  margin: auto;
+  border-width: thin;
+  border-style: ridge;
+}
+.use{
+  float:left;
+  font-size: 12px;
+}
+#nxt{
+  font-size: 14px;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: lightgray;
+}
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
